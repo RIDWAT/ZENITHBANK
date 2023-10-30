@@ -6,12 +6,66 @@
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-#mother{
-    height: 500px;
-    /* border: thick solid green; */
-    margin-top: 80px;
-    background-image: url("https://onlineacct.zenithbank.com/DiasporaAccount/img/desktop-1@2x.jpg");
-    background-size:contain;
-    background-repeat: no-repeat;
-    /* width: 1000px; */
+#pic{
+    height: 85vh;
+    background-image: url("../images/diasporapic.jpg");
+    background-size: cover;
+    /* margin-top: 50px; */
+    
+}
+.step1{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+form{
+    height: 85vh;
+    /* margin-top: 50px; */
+    /* border: thin solid red; */
+    margin-left: -20px;
+}
+.join{
+    margin: 20px auto;
+    text-align: center;
+}
+.details{
+    margin-left:30px ;
+}
+.step{
+    padding: 20px 0 50px 30px;
+}
+.step span{
+    margin-left: 20px;
+}
+.details input{
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding:5px 0;
+}
+select{
+    padding: 10px 0;
+    width: 300px;
+    color: red;
+    border: thick solid red;
+    
+}
+select:focus{
+    outline: red;
+}
+.opt{
+    margin-top: 20px;
+}
+form button{
+    padding: 10px 110px;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+}
+#row{
+    box-shadow: 5px 5px 3px 5px  rgb(92, 91, 91);
+    margin-top: 50px;
 }
