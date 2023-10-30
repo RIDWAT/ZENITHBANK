@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank account</title>
+
+
+    <!-- BOOSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./styles/bankAccount.css">
+
+   
+
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- APPEAR LATER -->
+    <ul class="appearlater">
+        <li><a class="appearlater1" href="">Open Account</a></li>
+        <li><a class="appearlater2" href="">Virtual cards</a></li>
+        <li><a class="appearlater3"  href="">Apps</a></li>
+    </ul>
+<!-- APPEAR LATER END -->
+
+<!-- TOP MOST -->
+    <div class="topmost">
+        <div class="left">
+            <ul>
+                <li><a href="">Help Centre</a></li>
+                <li><a href="">Find Us</a></li>
+                <li><a href="">Open Account</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="">A</a></li>
+                <li><a href="">A</a></li>
+                <li><a href="">A</a></li>
+                <li>
+                   <div>
+                    <a href="">Speech <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="speechoption">
+                     <p><a href="">Choose voice</a></p>
+                     <p><a href="">Alex (default)</a></p>
+                     <p><a id="lasttext" href="">START SPEAKING</a></p>
+                    </div>
+                   </div>
+                </li>
+                <li><a href="">English <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="language">
+                        <p>English</p>
+                        <p>Chinese(simplifier)</p>
+                        <p>French</p>
+                        <p>German</p>
+                        <p>Hausa</p>
+                        <p>Igbo</p>
+                        <p>Italian</p>
+                        <p>Japanese</p>
+                        <p>Korean</p>
+                        <p>Spanish</p>
+                        <p>Yoruba</p>
+                    </div>
+                
+                </li>
+                <li>
+                    <a href=""> <img src="./images/nigeria.png" alt="" class="nigeria"> NGN <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="country">
+                       <p><a href=""><img src="./images/nigeria.png" alt="" class="flag">Nigeria</a></p>
+                        <p><a href=""><img src="./images/ghana.png" alt="" class="flag">Ghana</a></p>
+                        <p><a href=""><img src="./images/sierra-leone.png" alt="" class="flag">Serria Leone</a></p>
+                        <p><a href=""><img src="./images/gambia.png" alt="" class="flag">Gambia</a></p>
+                        <p><a href=""><img src="./images/united-kingdom.png" alt="" class="flag">United Kingdom</a></p>
+                       
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+<!-- TOPMOST END -->
+
+<!-- HEADER LATER  -->
+<div class="headerlater">
+    <a href="">
+        <i class="fa-solid fa-bars"></i>
+       <p> MENU</p>
+    </a>
+    <a href="">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      <P>SEARCH</P> 
+    </a>
+    <a href="">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        <p>LINKS</p>
+    </a>
+    <a href="">
+       <i class="fa-solid fa-lock"></i>
+       <p>LOGIN</p>
+    </a>
+
+    <li>
+        <a class="ngn" href=""> <img src="./images/nigeria.png" alt="" class="nigeria2"> NGN </a>
+        <div class="country">
+           <p><a href=""><img src="./images/nigeria.png" alt="" class="flag">Nigeria</a></p>
+            <p><a href=""><img src="./images/ghana.png" alt="" class="flag">Ghana</a></p>
+            <p><a href=""><img src="./images/sierra-leone.png" alt="" class="flag">Serria Leone</a></p>
+            <p><a href=""><img src="./images/gambia.png" alt="" class="flag">Gambia</a></p>
+            <p><a href=""><img src="./images/united-kingdom.png" alt="" class="flag">United Kingdom</a></p>
+           
+        </div>
+    </li>
+
+    <img src="./images/zenith-bank-logo_1.png" alt="" class="logo" >
+
+
+
+
+</div>
+<!-- END -->
+
+<!-- HEADER -->
+<header id="myHeader">
+    <nav>
+        <p class="banking"><button class="internetbanking"><a href=""><i class="fa-solid fa-lock"></i> INTERNET BANKING</a>
+            <ul class="drop1">
+                <p><a href="">PERSONAL</a></p>
+                <p><a href="">CORPORATE</a></p>
+               </ul>
+         </button></p>
+        <div class="navbar">
+            <span><a href="">PERSONAL</a>
+                <div class="drop2">
+                    <div>
+                       <p><a href="">BANK ACCOUNTS</a></p><br>
+                       <p><a href="">Savings Account</a></p>
+                       <p><a href="">Salary Accounts</a></p>
+                       <p><a href="">Current Account</a></p>
+                       <p><a href="">Private Banking</a></p>
+                       <p><a href="">Domiciliary Account</a></p> 
+                       <p><a href="">Diaspora Banking</a></p> 
+                       <p><a href="">EazySave Account</a></p> 
+                       <p><a href="">Save4me Account</a></p> 
+                       <p><a href="">Zenith Children’s Account</a></p> 
+                       <p><a href="">Aspire Account</a></p>
+                       <p><a href="">Zenith Timeless Account</a></p> 
+                       <p><a href="">Zenith Eazy Account</a></p> 
+                       <p><a href="">Loans</a></p> 
+                    </div>
+                    <div>
+                       <p><a href="">WAYS TO BANK</a></p><br>
+                       <p><a href="">966 EazyBanking</a></p>
+                       <p><a href="">Mobile Banking</a></p>
+                       <p><a href="">Zenith Scan To Pay</a></p>
+                       <p><a href="">Cards</a></p>
+                       <p><a href="">ZiVA</a></p> 
+                       <p><a href="">Branch</a></p> 
+                       <p><a href="">ATM</a></p> 
+                    </div>
+                    <div>
+                       <p><a href="">CARDS</a></p><br>
+                       <p><a href="">Virtual Card</a></p>
+                       <p><a href="">Debit Cards</a></p>
+                       <p><a href="">Credit Cards</a></p>
+                       <p><a href="">Prepaid Cards</a></p>
+                       <p><a href="">VISA Direct</a></p> 
+                       <p><a href="">Travel Notification Portal</a></p> 
+                       <p><a href="">Travel Notification Portal</a></p> 
+                    </div>
+                    <div>
+                       <p><a href="">ELECTRONIC BANKING</a></p><br> 
+                       <p><a href="">Zenitht Direct</a></p>
+                       <p><a href="">Internet Banking</a></p>
+                       <p><a href="">Mobile App</a></p>
+                       <p><a href="">Scan To Pay</a></p>
+                       <p><a href="">POS</a></p> 
+                       <p><a href="">Create Hardware Token Pin</a></p> 
+                       <p><a href=""> Zenith SWIFTPay</a></p> 
+                       <p><a href="">Zenith International Money Transfer</a></p>
+                    </div>
+                </div>
+            
+            
+            </span>
+            <span><a href="">SME</a>
+                <div class="drop3">
+                    <div>
+                           <p><a href="">BANK ACCOUNTS</a></p><br>
+                           <p><a href="">SME Grow My Business</a></p>
+                           <p><a href="">Sole Proprietorship</a></p>
+                           <p><a href="">Partnership Accounts</a></p>
+                           <p><a href="">Clubs, Societies, Associations</a></p>
+                           <p><a href="">Trust Funds</a></p> 
+                        </div>
+                    <div>
+                           <p><a href="">BUSINESS SERVICES</a></p><br>
+                           <p><a href="">E-Services</a></p>
+                           <p><a href="">Sole Proprietorship</a></p>
+                           <p><a href="">Partnership Accounts</a></p>
+                           <p><a href="">Import Bills For Collection</a></p>
+                           <p><a href="">Export Transactions</a></p> 
+                           <p><a href="">Invisible Remittances</a></p>
+                           <p><a href="">Loans</a></p>
+                    </div>
+                    <div>
+                           <p><a href="">MERCHANT</a></p><br>
+                           <p><a href="">POS</a></p>
+                           <p><a href="">GlobalPay</a></p>
+                           <p><a href="">XPath</a></p>
+                           <p><a href="">NIBSS</a></p>
+                           <p><a href="">Realtime Access</a></p> 
+                           <p><a href="">AlertZ</a></p> 
+                           <p><a href="">MCASH</a></p> 
+                           <p><a href="">Agent Banking</a></p> 
+                    </div>
+                    <div>
+                        <p><a href="">ELECTRONIC BANKING</a></p><br>
+                           <p><a href="">Zenith Bank Mobile App</a></p>
+                           <p><a href="">E-Business Solutions</a></p>
+                           <p><a href="">Scan To Pay</a></p>
+                           <p><a href="">*966# EazyBanking</a></p>
+                           <p><a href="">Zenith Trade Portal</a></p> 
+                           <p><a href="">Zenith SWIFTPay</a></p> 
+                           <p><a href="">Zenith International Money Transfer</a></p> 
+                           <p><a href="">Zenith E-Channels Portal</a></p> 
+                        </div>
+                    </div> 
+            </span>
+            <span><a href="">CORPORATE</a>
+                <div class="drop4">
+                    <div>
+                       <p><a href="">BANK ACCOUNTS</a></p><br>
+                       <p><a href="">LLC Accounts</a></p>
+                       <p><a href="">Enterprise Account</a></p>
+                       <p><a href="">Partnership Accounts</a></p>
+                       <p><a href="">Clubs, Societies, Associations</a></p>
+                       <p><a href="">NGOs</a></p> 
+                       <p><a href="">Embassies & High Commissions</a></p> 
+                       <p><a href="">Trust Funds</a></p> 
+                    </div>
+                    <div>
+                       <p><a href="">CARD SOLUTIONS</a></p><br>
+                       <p><a href="">Corporate Card Suite</a></p>
+                       <p><a href="">Multipurpose Cards</a></p>
+                    </div>
+                    <div>
+                       <p><a href="">INVESTMENT</a></p><br>
+                       <p><a href="">Loans</a></p>
+                       
+                    </div>
+                    <div>
+                        <p><a href="">ELECTRONIC BANKING</a></p><br>
+                        <p><a href="">Zenith Bank Mobile App</a></p>
+                        <p><a href="">E-Business Solutions</a></p>
+                        <p><a href="">Scan To Pay</a></p>
+                        <p><a href="">*966# EazyBanking</a></p>
+                        <p><a href="">Zenith Trade Portal</a></p> 
+                        <p><a href="">Zenith SWIFTPay</a></p> 
+                        <p><a href="">Zenith International Money Transfer</a></p> 
+                        <p><a href="">Zenith E-Channels Portal</a></p> 
+                    </div>
+                </div>
+            </span>
+            <span><a href="">MEDIA</a>
+                <div class="drop5">
+                    <div>
+                       <p><a href="">NEWS</a></p><br>
+                       <p><a href="">Mentions</a></p>
+                       <p><a href="">Press Releases</a></p>
+                       <p><a href="">Reports</a></p>
+                       <p><a href="">CSR</a></p>
+                       <p><a href="">Economic Review</a></p> 
+                       <p><a href="">Regulatory Update</a></p> 
+                    </div>
+                    <div>
+                       <p><a href="">VIDEOS</a></p><br>
+                       <p><a href="">Scan To Pay</a></p>
+                       <p><a href="">*966# How To Videos</a></p>
+                       <p><a href="">Zenith AGM</a></p>
+                       <p><a href="">Internet Banking Tips</a></p>
+                       <p><a href="">Zenith Mobile App</a></p>
+                    </div>
+                    <div>
+                       <p><a href="">GALLERY</a></p><br>
+                       <p><a href="">AGM</a></p>
+                       <p><a href="">Infrastructure</a></p>
+                       <p><a href="">ICT Youth Empowerment</a></p>
+                       <p><a href="">Education And Scholarship</a></p>
+                    </div>
+                    <div>
+                        <p><a href="">DOCUMENTS</a></p><br>
+                        <p><a href="">Banking</a></p>
+                        <p><a href="">Investor Relations</a></p>
+                        <p><a href="">Customer Services</a></p>
+                    </div>
+                </div>
+            </span>
+            <span><a href="">INVESTOR RELATION</a>
+                <div class="drop6">
+                    <div>
+                       <p><a href="">STRATEGY</a></p><br>
+                       <p><a href="">Products</a></p>
+                       <p><a href="">Relationships</a></p>
+                       <p><a href="">Diversification</a></p>
+                       <p><a href="">International</a></p>
+                       <p><a href="">Core Strengths</a></p> 
+                       <p><a href="">ICT</a></p> 
+                    </div>
+                    <div>
+                       <p><a href="">CREDIT RATING</a></p><br>
+                       <p><a href="">Standard & Poor</a></p>
+                       <p><a href="">Fitch</a></p>
+                       <p><a href="">Pharez</a></p>
+                       <p><a href="">Moody</a></p>
+                       
+                    </div>
+                    <div>
+                       <p><a href="">INVESTOR UPDATES</a></p><br>
+                       <p><a href="">Investor FAQs</a></p>
+                       <p><a href="">2023</a></p>
+                       <p><a href="">2022</a></p>
+                       <p><a href="">2020</a></p>
+                       <p><a href="">2019</a></p>
+                       <p><a href="">2018</a></p>
+                       <p><a href="">2017</a></p>
+                       <p><a href="">2016</a></p>
+                       <p><a href="">2015</a></p>
+                       <p><a href="">2014</a></p>
+                       <p><a href="">2013</a></p>
+                    </div>
+                    <div>
+                        <p><a href="">SHARE INFORMATION</a></p><br>
+                        <p><a href="">Market Data</a></p>
+                    </div>
+                </div>
+            </span>
+            <span><a href="">CSR</a>
+                <div class="drop7">
+                    <div>
+                       <p><a href="">EDUCATION</a></p><br>
+                       <p><a href="">ICT Center Donation</a></p>
+                       <p><a href="">Computer Science Lab Donation</a></p>
+                       <p><a href="">Library Renovation</a></p>
+                    </div>
+                    <div>
+                       <p><a href="">HEALTH</a></p><br>
+                       <p><a href="">War Against Cancer</a></p>
+                       <p><a href="">Iga Idunganran Healthcare Centre</a></p>
+                       <p><a href="">Mobile Cancer Center Donation</a></p>
+                    </div>
+                    <div>
+                       <p><a href="">INFRASTRUCTURE</a></p><br>
+                       <p><a href="">Ikoyi Club Souvenir Shop Renovation</a></p>
+                       <p><a href="">Reconstruction Of Ajose Adeogun Road</a></p>
+                    </div>
+                    <div>
+                        <p><a href="">SPORTS</a></p><br>
+                            <p><a href="">Title Sponsorship Of The National Women's Basketball League</a></p>
+                            <p><a href="">Sponsorship Of The Nigeria Football Federation (NFF)</a></p>
+
+                    </div>
+                </div>
+            </span>
+            <span><a href="">ABOUT</a>
+                <div class="drop8">
+                    <div>
+                       <p><a href="">CORPORATE GOVERNANCE</a></p><br>
+                       <p><a href="">About Us</a></p>
+                       <p><a href="">Board Of Directors</a></p>
+                       <p><a href="">Management Team</a></p>
+                       <p><a href="">Code Of Governance</a></p>
+                       <p><a href="">The Board</a></p> 
+                       <p><a href="">Standing Committees Of The Board</a></p> 
+                    </div>
+                    <div>
+                       <p><a href="">BUSINESS FOCUS</a></p><br>
+                       <p><a href="">Technology Of Tomorrow</a></p>
+                       <p><a href="">Accuracy</a></p>
+                       <p><a href="">Connection</a></p>
+                       <p><a href="">Caring</a></p>
+                       
+                    </div>
+                    <div>
+                       <p><a href="">AWARDS</a></p><br>
+                       <p><a href="">2023</a></p>
+                       <p><a href="">2022</a></p>
+                       <p><a href="">2020</a></p>
+                       <p><a href="">2019</a></p>
+                       <p><a href="">2018</a></p>
+                       <p><a href="">2017</a></p>
+                       <p><a href="">2016</a></p>
+                       <p><a href="">2015</a></p>
+                       <p><a href="">2014</a></p>
+                       <p><a href="">2013</a></p>
+                       <p><a href="">2012</a></p>
+                       <p><a href="">Archieve</a></p>
+                    </div>
+                    <div>
+                        <p><a href="">CAREERS</a></p><br>
+                        <p><a href="">Life In Zenith</a></p>
+                        <p><a href="">Career Development</a></p>
+                        <p><a href="">Work Ethics</a></p>
+                        <p><a href="">Submit Your Resume</a></p>
+                    </div>
+                </div>
+         </span>
+        </div>
+        <button class="search"><a href="">SEARCH<i class="fa-solid fa-magnifying-glass"></i></a></button>
+        <a href="./index.html"><img src="./images/zenith-bank-logo_1.png" alt="" class="logo2"></a>
+    </nav>
+</header>
+<!-- END OF HEADEAR -->
+
+<!-- Section 1 -->
+<section>
+    <div class="firstpg">
+        <h2>Internet banking</h2>
+       <p>Enjoy the convenience of banking on your own terms, wherever and whenever. Get real-time balances on your account(s), view and download your account activity.</p>
+       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb" id="bc">
+          <li class="breadcrumb-item"><a href="#">Zenith Bank</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Internet Banking</li>
+        </ol>
+      </nav>
+       
+    </div>
+
+</section>
+<section class="sec2">
+    <div>
+        <span>Personal Internet Banking</span>
+        <p>We have made it easier for you to request cheque books, transfer funds between your accounts, pay utility bills and lots more. What are you waiting for, download the form and submit at any of our branches nationwide.</p>
+        <button>LOGIN</button>
+        <button>SIGN UP</button>
+        <button>VISA ONLINE</button>
+    </div>
+    <div>
+        <span>Corporate Internet Banking</span>
+        <p>You can carry out secure internet banking transactions and e-payments of all kinds, monitor trade transactions and administer payroll. You can easily make payments to customers with accounts anywhere in the world, confirm cheques, stop cheques, issue drafts and pay import duty amongst other functions.</p>
+
+    <button>LOGIN</button>
+    <button>SIGN UP</button>
+
+    </div>
+</section>
+<section class="plus">
+        <div class="accleft">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h5 class="accordion-header" id="flush-headingOne">
+                    <p class="accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      BENEFITS <i class="fa-solid fa-plus"></i>
+                    </p>
+                  </h5>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" id="acc">
+                        <li>Convenient – banking can be performed from the home or office. </li>
+                        <li>Available 24 hours a day, thus extending banking hours.</li>  
+                        <li>User-friendly.</p>
+                        <li>Notification of transactions via SMS and email.</li>
+                        <li>Prompt status update which keeps customers informed.</li>
+                        <li>Easy account management saving both time and energy.</li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h5 class="accordion-header" id="flush-headingTwo">
+                    <p class="accordion collapsed"  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        FEATURES <i class="fa-solid fa-plus"></i>
+                    </p>
+                  </h5>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" id="acc">
+                        <li> View real-time account balances.</li>
+                        <li> View real-time transactions on your account.</li>
+                         <li> View transaction history on your account. </li>
+                         <li> Transfer money between your accounts and other accounts within and outside the bank.</li>
+                         <li> Download and print account activity and consolidated activity of all your accounts in any format. </li>
+                         <li> >Order for cheque books and bank drafts. </li>
+                         <li> >Make bulk payments to employees, contractors, suppliers.</li>
+                         <li> >Pay bills such as DSTV and setup standing orders.</li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h5 class="accordion-header" id="flush-headingThree">
+                    <p class="accordion collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     HOW TO APPLY <i class="fa-solid fa-plus"></i>
+                    </p>
+                  </h5>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" id="acc">
+                        <li>Download and print the Application form – PDF Document.</li>
+                        <li>Complete the form with your details.</li>
+                        <li>Submit the form to any of our branches nearest to you.</li>
+                        <li>After submission, and within 24 hours (at most 48 hours), a sealed pack containing your logon details (Customer Account Number and Password) will be sent to you through your relationship officer. If you want to collect the pouch yourself, please go to the branch where you submitted the form.</li>
+                        
+                        <li>For more Information on Internet Banking, please contact your relationship officer or Zenith Direct with these numbers: 234-1-2787000, 0700ZENITHBANK or email us at zenithdirect@zenithbank.com</li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="contact">
+            <div>
+            <h3>Contact us today</h3>
+            <p>Email: zenithdirect@zenithbank.com, call 234-1-2787000, 0700ZENITHBANK or visit the Zenith Bank branch closest to you.
+            </div>
+            </p>
+
+
+        </div>
+    </section>
+
+<footer>
+    <div class="end">
+        <div>
+            <h5>PRODUCT ADVERT</h5>
+            <iframe width="263" height="150" src="https://www.youtube.com/embed/yOVys9rSUak?list=TLGGR2THhsV0WSwyODEwMjAyMw" title="Zenith Bank SME Grow My Biz Account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="one">
+            <h5>CUSTOMER SERVICES</h5>
+           <p><a href="">Help Center</a></p> 
+           <p><a href="">Whistle Blower</a></p>
+           <p><a href="">Dispense Error</a></p>
+           <p><a href="">Frequently Asked Questions</a></p>
+           <p><a href="">Contact Us</a></p>
+           <p><a href="">Locate a Branch / ATM</a></p>
+           <p><a href="">Downloads</a></p>
+           <p><a href="">Create Hardware Token Pin</a></p>
+          </div>
+        <div class="two">
+            <h5>PROTECT YOURSELF</h5>
+            <p><a href="">Scam Alert</a></p> 
+            <p><a href="">Replace Your Card</a></p>
+            <p><a href="">Internet Banking Security</a></p>
+            <p><a href="">Email Fraud and Phishing</a></p>
+            <p><a href=""> Card Security</a></p>
+            <p><a href="">Online Security</a></p>
+            <p><a href="">Bank Verification Number (BVN)</a></p>
+            <p><a href="">Regulatory Authorities</a></p>
+        </div>
+        <div class="three">
+            <h5>QUICK LINKS</h5>
+            <p><a href="">Realtime Access</a></p> 
+            <p><a href="">Zenith Trade Portal</a></p>
+            <p><a href=""> Visa Online</a></p>
+            <p><a href="">Reactivate Dormant Account</a></p>
+            <p><a href="">Letter of Credit Application Form</a></p>
+            <p><a href="">Online Security</a></p>
+            <p><a href=""> Request Cheque Book</a></p>
+            <p><a href=""> Travel Notification Portal</a></p>
+            
+            
+            
+            
+           
+        </div>
+        <div class="four">
+            <h5>NEWS</h5>
+            <p><a href="">Zenith Economic Quarterly Vol.19 No. 3 July, 2023</a></p> 
+            <p><a href="">ZENITH BANK DELIVERS PHENOMENAL TRIPLE-DIGIT GROWTH IN TOPLINE AND BOTTOMLINE IN H1 2023</a></p>
+            <p><a href="">Zenith Bank Retains Best Commercial Bank in Nigeria and Best Corporate Governance Bank in Nigeria Awards</a></p>
+            <p><a href="">Zenith Bank Retains the Top Spot as Nigeria’s Number One Bank</a></p>
+            <p><a href="">  Zenith Bank’s CFO Mukhtar Adam, Emerges as Chief Financial Officer of the Year at the all Africa Business Leaders Awards</a></p>
+           
+        </div>
+
+    </div>
+    <div class="down">
+        <ul class="social">
+            <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            
+         </ul>
+    </div>
+    <p class="last">© 2022 Zenith Bank PLC  | Privacy Policy | Cookie Policy | Terms of Use | Sitemap</p>
+</footer>
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

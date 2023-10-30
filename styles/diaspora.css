@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#mother{
+    height: 500px;
+    /* border: thick solid green; */
+    margin-top: 80px;
+    background-image: url("https://onlineacct.zenithbank.com/DiasporaAccount/img/desktop-1@2x.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* width: 1000px; */
+}

@@ -1,0 +1,1331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* APPEAR LATER */
+.appearlater{
+    display: flex;
+    margin:0 auto;
+    display: none;
+
+}
+.appearlater li{
+    margin-left: 20px;
+}
+.appearlater li a{
+    padding-left: 20px;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+}
+.appearlater2{
+    border-left: thin solid grey;
+}
+.appearlater3{
+    border-left: thin solid grey;
+}
+/* END */
+
+/* TOPMOST */
+.topmost{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 5px;
+    z-index: 4;
+
+
+
+}
+.topmost .left ul{
+    display: flex;
+    padding-left: 80px;
+    
+}
+.topmost .right ul{
+    display: flex;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.topmost ul li a{
+    color:grey;
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.topmost .right ul li a{
+    padding: 5px;
+
+}
+.topmost ul li a:hover{
+    color: red;
+}
+i{
+    font-size: 10px;
+    padding: 6px 0 0 5px;
+}
+.nigeria{
+    width: 25px;
+    height: 10px;
+    border: thin solid white;
+    border-radius: 10px;
+
+}
+.speechoption{
+    position: absolute;
+    border-top: 2px solid white;
+    display: block;
+    margin-top: 5px;
+    padding: 0 50px 20px 20px;
+    margin-left:7px ;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186);
+    background-color: white;
+    visibility: hidden;
+    z-index: 2;
+    
+    
+}
+.speechoption p a{
+    line-height: 30px;
+    text-decoration: none;
+
+}
+.speechoption p:nth-of-type(2){
+    box-shadow:1px 3px 5px 0 rgb(187, 186, 186);
+    margin-bottom: 5px;
+}
+.speechoption p:nth-of-type(3){
+    background-color: red;
+}
+.speechoption p:hover:nth-of-type(3){
+    background-color: rgb(151, 46, 46);
+}
+#lasttext{
+    color: white;
+}
+li:hover .speechoption{
+    visibility: visible;
+}
+.language{
+    position: absolute;
+    border-top: 2px solid white;
+    display: block;
+    margin-top: 5px;
+    padding: 0 20px 20px 20px;
+    margin-left:7px ;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186);
+    background-color: white;
+    visibility: hidden;
+    color: red;
+    border-radius: 5px;
+}
+.country{
+    position: absolute;
+    border-top: 2px solid white;
+    display: block;
+    margin-top: 5px;
+    padding: 0 20px 0 20px;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186);
+    background-color: white;
+    visibility: hidden;
+    z-index: 2;
+    height: 320px;
+    line-height: 50px;
+    
+}
+.flag{
+    width: 30px;
+    height: 15px;
+    margin-right: 8px;
+}
+li:hover .country{
+    visibility: visible;
+}
+/* END */
+
+/* HEADER LATER  */
+.headerlater{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    display: none;
+    
+}
+.headerlater a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.headerlater a i{
+    color: red;
+    font-size: 15px;
+}
+.nigeria2{
+    width: 20px;
+    height: 10px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+/* END */
+
+/* HEADER */
+header{
+    background-color: white;
+    width: 100%;
+    /* position: relative; */
+
+    
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.logo2{
+    width: 70px;
+    height: 70px;
+}
+.internetbanking{
+    background-image: linear-gradient( 50deg, rgb(250, 40, 3)40%, rgb(180, 37, 12) 60%);
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    font-size: 13px;
+
+}
+.internetbanking a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.banking{
+    padding: 10px 0;
+}
+.navbar{
+    margin: -20px 0 0 0 ;
+}
+.navbar span a{
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.search{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: thin solid grey;
+    background-color: white;
+    margin: -20px 0 0 280px;
+}
+.search a{
+    text-decoration: none;
+    color: black;
+}
+.drop1{
+    border: thin solid black;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.907);
+    visibility: hidden;
+    z-index: 1;
+}
+.drop1 p{
+    border: thin solid white;
+    /* margin: 20px 0; */
+    padding: 10px 50px;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186); 
+}
+.drop1 p a{
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.drop1 p:hover{
+    background-color: red;
+}
+.banking:hover .drop1{
+    visibility: visible;
+
+}
+.drop2{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop2 p a{
+    padding: 0 10px;
+}
+span:hover .drop2{
+    visibility: visible;
+}   
+.drop3{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color:white;
+    padding: 20px 0;
+    margin: 0 0 0 -68px;
+    visibility: hidden;
+    z-index: 1;
+    
+} 
+.drop3 p a{
+    padding: 0 10px;
+}
+span:hover .drop3{
+    visibility: visible;
+}   
+.drop4{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -98px;
+    visibility: hidden;
+    z-index: 1;
+
+}
+.drop4 p a{
+    padding: 0 10px;
+}
+span:hover .drop4{
+    visibility: visible;
+}   
+.drop5{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -180px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop5 p a{
+    padding: 0 20px;
+}
+span:hover .drop5{
+    visibility: visible;
+}  
+.drop6{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -230px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop6 p a{
+    padding: 0 20px;
+}
+span:hover .drop6{
+    visibility: visible;
+}  
+.drop7{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 15px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -350px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop7 p a{
+    padding: 0 10px;
+}
+span:hover .drop7{
+    visibility: visible;
+}  
+.drop8{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -400px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop8 p a{
+    padding: 0 20px;
+}
+span:hover .drop8{
+    visibility: visible;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}
+.sticky + .content {
+      /* padding-top: 102px; */
+}
+/* END OF HEADER */
+
+/* SECTION ONE */
+#caroimg{
+    height:480px;
+    margin-top: -95px;
+}
+/* SECTION ONE APPEAR LATER */
+
+
+.section1appearlater{
+    width:1260px;
+    height: 400px;
+    
+    display: none;
+
+}
+
+
+
+/* END */
+
+/* SECTION ONE APPEAR LATER2 */
+
+
+.section1appearlater2{
+    width:323px;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+    display: none;
+
+}
+
+/* END */
+
+/* SIDE BARS */
+#sideright{
+width: 150px;
+  background-color:white;
+position: fixed;
+  margin-top: -330px;
+  
+
+}
+#sideright span{
+    border-bottom: thin solid grey;
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
+#sideright span:nth-of-type(7){
+    border: 0;
+}
+
+#sideright a{
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    
+
+}
+#two2{
+    display: flex;
+    justify-content: end;
+    
+}
+.social{
+    /* background-color: aqua; */
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+}
+.social li{
+    /* border: thin solid black; */
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+
+}
+.social li:hover:nth-of-type(1){
+    background-color:black;
+}
+ .social li:nth-of-type(1){
+    background-color: rgb(2, 222, 2);
+    padding:0 2px;
+    
+
+}
+.social li:nth-of-type(2){
+    background-color:rgb(64, 64, 167);
+    padding: 0 3px ;
+
+}
+.social li:hover:nth-of-type(2){
+    background-color:black;
+}
+.social li:nth-of-type(3){
+    background-color: rgb(5, 128, 251);
+    padding: 1px 2px ;
+
+}
+.social li:hover:nth-of-type(3){
+    background-color:black;
+}
+.social li:nth-of-type(4){
+    background-color: rgb(199, 29, 108);
+    padding: 1px 2px ;
+
+}
+.social li:hover:nth-of-type(4){
+    background-color:black;
+}
+.social li:nth-of-type(5){
+    background-color: red;
+    padding:0 ;
+
+}
+.social li:hover:nth-of-type(5){
+    background-color:black;
+}
+.social li:nth-of-type(6){
+    background-color: rgb(20, 91, 119);
+    padding: 2px 2px;
+
+}
+.social li:hover:nth-of-type(6){
+    background-color:black;
+}
+.social li:nth-of-type(7){
+    background-color: red;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5px;
+
+
+}
+.social li:nth-of-type(7) i{
+    font-size: 30px;
+    margin-left: -5px;
+    
+    
+}
+
+.social li a i{
+    font-size:18px;
+    /* margin:-2px 0 0 0 ; */
+    color: white;
+    
+}  .chatbox{
+    display: flex;
+    justify-content: right;
+    
+    
+
+}
+
+.chattext{
+font-size: 20px;
+font-weight: bold;
+}
+.chat{
+    width: 270px;
+    height: 120px;
+    background-color: white;
+    /* border: thin solid black; */
+    /* position: absolute; */
+    margin-top: -180px;
+    box-shadow: 3px 5px 3px 0px rgb(74, 74, 74);
+    
+    border-radius: 10px;
+    padding: 10px;
+   
+
+}
+#texthelp{
+    margin-top: 10px;
+    border: thin solid white;
+    box-shadow: 3px 5px 3px 0px rgb(40, 39, 39);
+    border-radius: 5px;
+    width: 270px;
+    padding: 10px;
+}
+
+input:focus{
+    outline: none;
+
+}
+.hello{
+    font-size: 15px;
+    
+}
+.chat2box{
+    margin-right: 20px;
+    position: fixed;
+
+}
+.message{
+    border: thin solid red;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.message i{
+    color: white;
+    font-size: 20px;
+    margin: 10px 8px;
+}
+
+
+
+
+/* SECTION 2 */
+#two{
+     padding: 10px 250px 0 80px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+     
+
+}
+.imgway{
+    width: 50px;
+    height: 50px;
+    margin: 10px 50px 0 50px;
+}
+
+.waytext{
+    margin: 5px 10px 0 40px;
+    font-size: 10px;
+    font-weight: bold;
+    color: grey;
+}
+.Producttext{
+    font-size: 11px;
+    color: grey;
+    padding: 0;
+    /* background-color: red; */
+    width: 130px;
+    text-align: center;
+    margin: 5px 10px 0 20px;
+    font-weight: bold;
+}
+
+.sec2 a{
+    /* padding: 50px 0 100px  0; */
+    text-decoration: none;
+}
+.dropdown{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 80px;
+    margin-top:30px;
+    
+}
+.dropdown3{
+    position: absolute;
+    display: flex;
+    /* margin-top:30px; */
+    
+    margin-left: -180px;
+    
+    padding: 0;
+    padding-right: 50px;
+    /* overflow: hidden; */
+    max-width: 100%;
+
+    
+
+}
+.dropdown3 a{
+    text-decoration: none;
+    font-size: 10px;
+    color: grey;
+    font-weight: bold;
+}
+.dropdown4{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 80px;
+    margin-top:30px;
+    border: thin solid black;
+    
+}
+.dropdown4 a{
+    text-decoration: none;
+    font-size: 10px;
+    color: grey;
+    font-weight: bold;
+}
+.dropdown a{
+    text-decoration: none;
+    font-size: 10px;
+    color: grey;
+    font-weight: bold;
+}
+.horizontal{
+    border-bottom: 1px solid red;
+    width: 570px;
+    margin-left: 270px;
+    margin-top: -16px;
+   
+    
+}
+.horizontal2{
+    border-bottom: 1px solid red;
+    width: 550px;
+    margin-left: 120px;
+    margin-top: -16px;
+    
+   
+    
+}
+.horizontal3{
+    border-bottom: 1px solid red;
+    width: 500px;
+    margin-left:-100px;
+    margin-top: -16px;
+   
+    
+}
+.horizontal4{
+    border-bottom: 1px solid red;
+    width: 400px;
+    margin-left:-250px;
+    margin-top: -16px;margin-right: 0;
+   
+    
+}
+.vertical{
+    border-left: 1px solid red ;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.imgatm{
+    width: 40px;
+    height: 40px;
+    margin-top:-20px;
+    
+}
+.textatm{
+    margin-left: 5px;
+    
+}
+.imgacc{
+    width: 40px;
+    height: 40px;
+    margin-top:-20px;
+    /* margin-left: -180px; */
+}
+.textacc{
+    /* margin-left: -200px; */
+
+}
+.imgc{
+    width: 40px;
+    height: 40px;
+    margin-top:-20px;
+    /* margin-left: -180px; */
+}
+.imgsc{
+    width: 40px;
+    height: 40px;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+.textsc{
+    width: 80px;
+    /* background-color: beige; */
+    margin-left: 150px;
+    font-size: 8px;
+    
+}
+.textda{
+    width: 120px;
+    margin-left: 90px;
+}
+.textd{
+    margin-left: 80px;
+    /* width: 120px; */
+    background-color: aqua;
+}
+.textsa{
+    width:100px ;
+    margin-left: 100px;
+}
+.textcwa{
+    margin-left: 50px;
+}
+.imgcwa{
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+.imgss{
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -380px;
+}
+.textss{
+    margin-left: -390px;
+}
+.imgway2{
+    width: 40px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.imgd{
+    width: 40px;
+    height: 40px;
+    margin-left: 90px;
+    margin-top: -20px; 
+    margin-right: 0;
+    background-color: aqua;
+}
+.waytext2{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+.ways{
+    visibility: hidden;
+    position: absolute;
+
+
+
+}
+.sec2{
+    height: 80px;
+    width: 150px;
+    /* border: thin solid black; */
+    margin-top: -10px;
+    
+}
+.sec2:hover{
+    background-color: rgba(128, 128, 128, 0.122);
+}
+
+
+.box:hover .ways{
+    visibility: visible;
+    
+    
+}
+.box:hover .horizontal{
+    transition: .5s ease-in-out;
+    transform: scaleX(2);
+}
+.box:hover .horizontal2{
+    transition: .5s ease-in-out;
+    transform: scaleX(2);
+}
+.box:hover .horizontal3{
+    transition: .5s ease-in-out;
+    transform: scaleX(2);
+}
+.box:hover .horizontal4{
+    transition: .5s ease-in-out;
+    transform: scaleX(2);
+}
+.imgproduct{
+    width: 50px;
+    height: 50px;
+    margin: 10px 50px 0 50px;
+    background-color: gainsboro;
+}
+.sec2product a{
+    text-decoration: none;
+}
+.section3{
+
+    margin-top: 100px;
+    
+}
+#three{
+    /* border: 1px solid red; */
+    /* width: 1300px; */
+    height: 80vh;
+    background-image: url("https://www.zenithbank.com/media/3189/homepage-girl.jpg?anchor=center&mode=crop&width=1600&rnd=132452431820000000");
+    background-size: cover;
+    padding: 100px 0 0 100px;
+
+
+    
+
+}
+
+.sec3text{
+   font-size: 30px;
+   margin-top: 50px;
+   
+}
+.sec3text1{
+    width: 500px;
+    color: grey;
+}
+.button1{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.button1:hover{
+    background-color: rgb(204, 24, 24);
+}
+
+.four{
+    height: 70vh;
+    background-color: red;
+    padding-top: 80px;
+    
+}
+.fourtop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.fourtop p a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(219, 217, 217);
+}
+.fourtop p{
+    border-bottom: 1.5px solid rgb(219, 217, 217);
+    margin-left: 10px;
+    
+}
+.fourtop p:nth-of-type(1){
+    border-bottom: 1.5px solid white;
+    
+}
+.fourtop p a:nth-of-type(1){
+    color: white;
+    
+}
+.fourtwo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fourtwotext{
+    width: 400px;
+    margin-left: 30px;
+    color: white;
+    
+}
+.fourp{
+    font-size: 15px;
+}
+.fourbutton{
+    border: 0;
+    padding: 10px;
+}
+#five{
+    position: relative;
+    width: auto;
+    
+
+
+}
+video{
+    width: 100%;
+    z-index: -5;
+    position: absolute;
+    
+}
+.content{
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.519);
+    color: white;
+    
+    text-align: center;
+    padding: 50px 0 0 0;
+
+}
+.content p{
+    width: 550px;
+    margin: 0 auto;
+
+}
+.content .contentbutton{
+    border: 0;
+    padding: 5px;
+    margin-top: 10px;
+}
+footer{
+    background-color:rgb(246, 253, 253);
+    /* height:67vh; */
+    border-top: thick solid red;
+    
+    
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+}
+footer .end .footer4{
+    width: 250px;
+}
+.end h5{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.end p{
+    font-size: 11px;
+}
+.end p a{
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+}
+.end .footer1{
+     line-height: 8px;
+     
+}
+.end .footer2{
+    line-height: 8px;
+}
+.end .footer3{
+    line-height: 8px;
+}
+.end .footer4{
+    text-align: justify;
+    line-height: 12px;
+}
+.down{
+    background-color: white;
+    margin-left: 20px;
+    border: thin solid rgb(220, 218, 218);
+    padding: 5px 0 10px 5px;
+}
+.down i{
+    color: black;
+    font-size: 17px;
+}
+.last{
+    margin: 50px 0 0 20px;
+    font-size: 12px;
+    
+}
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media(max-width:1208px){
+    header{
+        display: none;
+    }
+    .headerlater{
+        display: flex;
+    }
+}
+@media(max-width:970px){
+    #two{
+        display: none;
+    }
+    .section1{
+        display: none;
+    }
+    .section1appearlater{
+        display: block;
+        width: 100%;
+    }
+    .topmost{
+        width: 100%;
+    }
+
+
+    
+    
+}
+@media(max-width:975px){
+    .topmost{
+        display: none;
+    }
+    .appearlater{
+        display: flex;
+    }
+}
+@media(max-width:700px){
+    .end{
+        display: block;
+        
+    }
+}
+@media(max-width:682px){
+    .fourtwotext{
+        display: none;
+    }
+    .fourtop{
+        flex-wrap: wrap;
+    }
+    .fourtop a{
+        margin-top: 10px;
+    }
+}
+@media(max-width:608px){
+    .section3{
+        width: 100%;
+       height: auto;
+    }
+    .sec3text{
+        margin: 0;
+    }
+    .sec3text1{
+        width:200px ;
+        
+    }
+    
+    .button1{
+        margin-top: 2px;
+        padding: 5px;
+    }
+}
+@media(max-width:571px){
+    .section1{
+        display: none;
+        width: 100%;
+        
+    }
+    .section1appearlater{
+        display: block;
+    } #two2{
+        display: none;
+    }
+    .chatbox{
+        display: none;
+    }
+}
+@media(max-width:535px){
+    #five{
+        width: auto;
+    }
+    .content p{
+        width: 300px;
+    }
+}
+@media(max-width:422px){
+    .content{
+        padding: 10px 0 0 0;
+    }
+}
+@media(max-width:461px){
+    .headerlater a{
+        font-size: 10px;
+        padding: 0 10px;
+        margin: 0 2px;
+    }
+
+    .headerlater a i{
+        font-size: 10px;
+    }
+    .headerlater{
+        padding: 0;
+    }
+    .nigeria2{
+        width:10px;
+        height:5px;
+    }
+    .button1{
+        display: none;
+    }
+    @media(max-width:360px){
+        .section3{
+            height: auto;
+        }
+    }
+}
+@media(max-width:332px){
+        .fourtop{
+            display: block;
+            margin: 0 80px;
+            
+        }
+        .fourtop p{
+            width: 150px;
+        }
+        .four{
+            width: 100%;
+            height: auto;
+        }
+        #five{
+            width: 100%;
+        }
+        .content p{
+            width: 200px;
+            font-size: 10px;
+        
+        }
+        .content{
+            padding: 0;
+        }
+}
+@media(max-width:323px){
+    .sec3text1{
+        width: 100%;
+        
+    }
+   
+}
+
+@media(max-width:319px){
+    .appearlater{
+        background-color: white;
+    }
+    .appearlater li{
+          margin: 0;
+    }
+
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
+    .headerlater a{
+        padding: 0 5px;
+        font-size: 5px;
+    }
+    .nigeria2{
+        display: none;
+    }
+    .end{
+        
+    }
+}
+@media (max-width:315px){
+    .section1appearlater{
+        display: none;
+    }
+     .section1appearlater2{
+        display: block;
+        width: 300px;
+    }
+     #sideright{
+        display: none;
+     }
+     .chatbox{
+        display: none;
+     }
+     .section3{
+       width: 300px;
+        height: auto;
+        
+     }
+     .four{
+        width: 300px;
+     }
+     #three{
+        width: 100%;
+        height: auto;
+     }
+     .sec3text1{
+        font-size: 9px;
+        width: 50%;
+     }
+     #five{
+        width: 300px;
+     }
+     .footer{
+
+     }
+}
+@media(max-width:300px){
+    #five{
+        /* width: 100%; */
+    }
+    .content h2{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:243px){
+    .appearlater li a{
+        padding: 0 0 0 0;
+    }
+    .appearlater{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .section1appearlater{
+        width: 100%;
+        height: 20vh;
+        margin: 0;
+        /* padding-right: 5px; */
+    }
+    .sec1later{
+        width: 100%;
+    }
+
+}
+@media(max-width:155px){
+    .appearlater{
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+}
+@media(max-width:81px){
+    .section1appearlater2{
+        width: 202px;
+        height: 15vh;
+    }
+    .section3{
+        width: 250px;
+        height: 15vh;
+    }
+    #five{
+        /* width: 100%; */
+
+    }
+    .content{
+        padding: 0;
+    }
+    .content p{
+        /* width: auto; */
+    }
+}

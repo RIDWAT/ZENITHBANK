@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration:none 
+}
+#caro{
+    height: 500px;
+    /* border: thin solid red; */
+}
+
+form{
+    
+    height: 100vh;
+    
+}
+.formtop{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    border-bottom: thin solid rgb(234, 232, 232);
+    
+    
+}
+.logo{
+    margin-top: -20px;
+    
+}
+form .formtop p{
+    width: 500px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+form .login{
+    color: red;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+form .how{
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    
+}
+.option{
+    /* border: thin solid red; */
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+}
+.acc{
+    /* border: thin solid red; */
+    width: 300px;
+    height: 50px;
+    margin: -15px auto;
+}
+::placeholder{
+    font-size: 10px;
+}
+#eye{
+    padding: 10px;
+    background-color: rgb(243, 241, 241);
+    border-radius: 0 4px 4px 0;
+}
+form button{
+    padding: 10px 125px;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+}
+form .forgot{
+    margin: 10px auto;
+    padding: 0 50px;
+}
+form .forgot a{
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+#scam{
+     width: 500px;
+     margin-left: -80px;
+
+
+
+
+
+}
+form #scam a{
+    color: red;
+    font-size: 11px;
+    padding-left: 13px;
+    text-decoration: none;
+}
+.last{
+    font-size: 10px;
+    margin-top: 20px;
+
+}
+.last a{
+    text-decoration: none;
+    color: red;
+}
+.other{
+    background-color: black;
+    width: 150px;
+/* float: right; */
+    /* height: 50px; */
+    padding: 20px;
+}
+.other a{
+    color: white;
+    text-decoration: none;
+    /* padding: 50px 10px; */
+    margin-top: 20px;
+}
+#icon{
+    margin-left: 5px
+}
+.sidedrop{
+    position: absolute;
+    background-color: rgb(169, 169, 137);
+    margin-top: -100px;
+    margin-left: 200px;
+    display: none;
+    
+    
+}
+.sidedrop a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+
+}
+a:hover .sidedrop{
+    display: block;
+    transition: 2s;
+    transform: translate(4px 5px);
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media(max-width:1000px){
+    #caro{
+        display: none;
+    }
+}

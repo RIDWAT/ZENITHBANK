@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/* APPEAR LATER */
+.appearlater{
+    display: flex;
+    margin:0 auto;
+    display: none;
+
+}
+.appearlater li{
+    margin-left: 20px;
+}
+.appearlater li a{
+    padding-left: 20px;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+}
+.appearlater2{
+    border-left: thin solid grey;
+}
+.appearlater3{
+    border-left: thin solid grey;
+}
+/* END */
+
+/* TOPMOST */
+.topmost{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 5px;
+    z-index: 4;
+
+
+
+}
+.topmost .left ul{
+    display: flex;
+    padding-left: 80px;
+    
+}
+.topmost .right ul{
+    display: flex;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.topmost ul li a{
+    color:grey;
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.topmost .right ul li a{
+    padding: 5px;
+
+}
+.topmost ul li a:hover{
+    color: red;
+}
+i{
+    font-size: 10px;
+    padding: 6px 0 0 5px;
+}
+.nigeria{
+    width: 25px;
+    height: 10px;
+    border: thin solid white;
+    border-radius: 10px;
+
+}
+.speechoption{
+    position: absolute;
+    border-top: 2px solid white;
+    display: block;
+    margin-top: 5px;
+    padding: 0 50px 20px 20px;
+    margin-left:7px ;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186);
+    background-color: white;
+    visibility: hidden;
+    z-index: 2;
+    
+    
+}
+.speechoption p a{
+    line-height: 30px;
+    text-decoration: none;
+
+}
+.speechoption p:nth-of-type(2){
+    box-shadow:1px 3px 5px 0 rgb(187, 186, 186);
+    margin-bottom: 5px;
+}
+.speechoption p:nth-of-type(3){
+    background-color: red;
+}
+.speechoption p:hover:nth-of-type(3){
+    background-color: rgb(151, 46, 46);
+}
+#lasttext{
+    color: white;
+}
+li:hover .speechoption{
+    visibility: visible;
+}
+.language{
+    position: absolute;
+    border-top: 2px solid white;
+    display: block;
+    margin-top: 5px;
+    padding: 0 20px 20px 20px;
+    margin-left:7px ;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186);
+    background-color: white;
+    visibility: hidden;
+    color: red;
+    border-radius: 5px;
+}
+.country{
+    position: absolute;
+    border-top: 2px solid white;
+    display: block;
+    margin-top: 5px;
+    padding: 0 20px 0 20px;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186);
+    background-color: white;
+    visibility: hidden;
+    z-index: 2;
+    height: 320px;
+    line-height: 50px;
+    
+}
+.flag{
+    width: 30px;
+    height: 15px;
+    margin-right: 8px;
+}
+li:hover .country{
+    visibility: visible;
+}
+/* END */
+
+/* HEADER LATER  */
+.headerlater{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    display: none;
+    
+}
+.headerlater a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.headerlater a i{
+    color: red;
+    font-size: 15px;
+}
+.nigeria2{
+    width: 20px;
+    height: 10px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+/* END */
+
+/* HEADER */
+header{
+    background-color: white;
+    width: 100%;
+    /* position: relative; */
+
+    
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.logo2{
+    width: 70px;
+    height: 70px;
+}
+.internetbanking{
+    background-image: linear-gradient( 50deg, rgb(250, 40, 3)40%, rgb(180, 37, 12) 60%);
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    font-size: 13px;
+
+}
+.internetbanking a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.banking{
+    padding: 10px 0;
+}
+.navbar{
+    margin: -20px 0 0 0 ;
+}
+.navbar span a{
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.search{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: thin solid grey;
+    background-color: white;
+    margin: -20px 0 0 280px;
+}
+.search a{
+    text-decoration: none;
+    color: black;
+}
+.drop1{
+    border: thin solid black;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.907);
+    visibility: hidden;
+    z-index: 1;
+}
+.drop1 p{
+    border: thin solid white;
+    /* margin: 20px 0; */
+    padding: 10px 50px;
+    box-shadow:1px 3px 3px 0 rgb(187, 186, 186); 
+}
+.drop1 p a{
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.drop1 p:hover{
+    background-color: red;
+}
+.banking:hover .drop1{
+    visibility: visible;
+
+}
+.drop2{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop2 p a{
+    padding: 0 10px;
+}
+span:hover .drop2{
+    visibility: visible;
+}   
+.drop3{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color:white;
+    padding: 20px 0;
+    margin: 0 0 0 -68px;
+    visibility: hidden;
+    z-index: 1;
+    
+} 
+.drop3 p a{
+    padding: 0 10px;
+}
+span:hover .drop3{
+    visibility: visible;
+}   
+.drop4{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -98px;
+    visibility: hidden;
+    z-index: 1;
+
+}
+.drop4 p a{
+    padding: 0 10px;
+}
+span:hover .drop4{
+    visibility: visible;
+}   
+.drop5{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -180px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop5 p a{
+    padding: 0 20px;
+}
+span:hover .drop5{
+    visibility: visible;
+}  
+.drop6{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -230px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop6 p a{
+    padding: 0 20px;
+}
+span:hover .drop6{
+    visibility: visible;
+}  
+.drop7{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 15px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -350px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop7 p a{
+    padding: 0 10px;
+}
+span:hover .drop7{
+    visibility: visible;
+}  
+.drop8{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    line-height: 5px;
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 0 0 -400px;
+    visibility: hidden;
+    z-index: 1;
+}
+.drop8 p a{
+    padding: 0 20px;
+}
+span:hover .drop8{
+    visibility: visible;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}
+.sticky + .content {
+      /* padding-top: 102px; */
+}
+
+/* END OF HEADER */
+
+/* SECTION 1 */
+.firstpg{
+    height: 420px;
+    /* border: thin solid black; */
+    background-image: url("https://www.zenithbank.com/media/1368/internet-banking-1-1.jpg?anchor=center&mode=crop&width=2500&height=1000&rnd=131389120510000000");
+    background-size: cover;
+    position: sticky;
+    margin-top: -120px;
+    z-index: -1;
+    padding: 180px 0 0 50px;
+    color: white;
+    
+}
+.firstpg p{
+    width: 630px;
+    font-weight: bold;
+        
+}
+.firstpg #bc{
+    /* border: thin solid black; */
+    width: 230px;
+    /* color: white; */
+    /* padding: 2px; */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    color: white;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.sec2 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+.sec2 p{
+    width: 500px;
+    color: grey;
+}
+.sec2 button{
+    background-color: red;
+    border: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.plus{
+    margin: 80px 0 0 200px;
+}
+.plus .accleft{
+    width: 800px;
+    border-top: thin solid rgb(197, 194, 194) ;
+    border-bottom: thin solid rgb(197, 194, 194) ;
+}
+.accleft #acc li{
+    font-size: 15px;
+    list-style-type: disc;
+    color: black;
+    line-height: 35px;
+    
+}
+.accleft i{
+    float: right;
+    font-size: 15px;
+}
+.accleft i:hover{
+    color: red;
+}
+.contact{
+    height: 250px;
+    background-color: red;
+    margin-top: 50px;
+}
+/* .contact div{
+    margin: 20px auto;
+    
+} */
+.contact h3{
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact p{
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER*/
+footer{
+    background-color: rgb(237, 245, 249);
+    height: 100vh;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+}
+.four{
+    width: 250px;
+
+}
+.end p{
+    font-size: 10px;
+    
+
+}
+.end h5{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.end p a{
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+}
+.end .one{
+     line-height: 8px;
+     
+}
+.end .two{
+    line-height: 8px;
+}
+.end .three{
+    line-height: 8px;
+}
+.end .four{
+    text-align: justify;
+    line-height: 12px;
+}
+.down{
+    border: thin solid rgb(194, 194, 194);
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+    
+
+
+}
+.social li{
+    
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: inline;
+    margin-left: 5px;
+
+}
+
+.social li a i{
+    font-size:16px;
+    margin-top: 10px;
+    color:black;
+}
+.last{
+    margin: 50px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media(max-width:1208px){
+    header{
+        display: none;
+    }
+    .headerlater{
+        display: flex;
+    }
+}
+@media(max-width:1020px){
+    .plus{
+        margin-left: 50px;
+    }
+}
+@media(max-width:970px){
+    .topmost{
+        width: 100%;
+    }
+
+
+    
+    
+}
+@media(max-width:975px){
+    .topmost{
+        display: none;
+    }
+    .appearlater{
+        display: flex;
+    }
+}
+@media(max-width:930px){
+    .sec2{
+        display:block;
+    }
+}
+@media(max-width:857px){
+    .plus{
+        margin-left: 0;
+    }
+    .plus .accleft{
+        width: 400px;
+    }
+}
+@media(max-width:900px){
+    .end{
+        display: block;
+    }
+}
+@media(max-width:727px){
+    .firstpg p{
+        width: 300px;
+    }
+    .firstpg #bc{
+        display: none;
+    }
+}
+@media(max-width:531px){
+    .sec2 p{
+        width: 200px;
+    }
+    .sec2 span{
+        font-size: 18px;
+    }
+}
+@media (max-width:450px){
+    .contact{
+        width: auto;
+    }
+    .contact p{
+        width: auto;
+        font-size: 10px;
+    }
+}
+@media(max-width:461px){
+    .headerlater a{
+        font-size: 10px;
+        padding: 0 10px;
+        margin: 0 2px;
+    }
+
+    .headerlater a i{
+        font-size: 10px;
+    }
+    .headerlater{
+        padding: 0;
+    }
+    .nigeria2{
+        width:10px;
+        height:5px;
+    }
+}
+@media(max-width:434px){
+    .plus .accleft{
+        width: 200px;
+    }
+}
+@media(max-width:380px){
+        .firstpg p{
+            width: 150px;
+        }
+        .firstpg{
+            height: auto;
+        }
+}
+
+@media(max-width:319px){
+    .appearlater{
+        background-color: white;
+    }
+    .appearlater li{
+          margin: 0;
+    }
+
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
+    .headerlater a{
+        padding: 0 5px;
+        font-size: 5px;
+    }
+    .nigeria2{
+        display: none;
+    }
+}
+@media (max-width:315px){
+    .section1appearlater{
+        display: none;
+    }
+     .section1appearlater2{
+        display: block;
+        
+        
+    
+     }
+     #sideright{
+        display: none;
+     }
+     .firstpg{
+        width:300px
+     }
+        
+}
+@media(max-width:305px){
+    .contact{
+        width: 300px;
+
+    }
+    .contact p{
+        width: 100px;
+    }
+}
+@media (max-width:292px){
+    .end .four{
+        width: 200px;
+    }
+    .end{
+        width: 300px;
+    }
+}
+@media(max-width:243px){
+    .appearlater li a{
+        padding: 0 0 0 0;
+    }
+    .appearlater{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
+@media(max-width:155px){
+    .appearlater{
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+}
